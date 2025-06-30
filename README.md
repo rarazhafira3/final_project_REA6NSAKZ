@@ -72,11 +72,11 @@ Aplikasi akan terbuka secara otomatis di browser web default Anda.
 📸 Preview Aplikasi
 Berikut adalah beberapa tangkapan layar dari aplikasi yang sedang berjalan:
 
-Tampilan Bagian Input Pengukuran
+![alt text](image.png)
 
-Tampilan Rekomendasi Gaya untuk Bentuk Tubuh Tertentu
+![alt text](image-1.png)
 
-Tampilan Bagian "Pelajari Bentuk Tubuh Umum"
+![alt text](image-2.png)
 
 🔗 Link Deploy Aplikasi
 Aplikasi ini telah dideploy ke platform cloud dan dapat diakses melalui link berikut:
