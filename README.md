@@ -33,9 +33,8 @@ Buka terminal atau command prompt Anda dan kloning repositori ini:
 
 Bash
 
-git clone https://github.com/USERNAME_ANDA/NAMA_REPOS_ANDA.git
-cd NAMA_REPOS_ANDA
-(Ganti USERNAME_ANDA dan NAMA_REPOS_ANDA dengan informasi repositori Anda)
+git clone https://github.com/rarazhafira3/final_project_REA6NSAKZ.git
+cd final_project_REA6NSAKZ
 
 Buat Virtual Environment (Direkomendasikan):
 
@@ -82,8 +81,4 @@ Tampilan Bagian "Pelajari Bentuk Tubuh Umum"
 🔗 Link Deploy Aplikasi
 Aplikasi ini telah dideploy ke platform cloud dan dapat diakses melalui link berikut:
 
-Streamlit Cloud: [Link Aplikasi Anda di Streamlit Cloud]
-(Contoh: https://your-app-name.streamlit.app/)
-
-Hugging Face Spaces: [Link Aplikasi Anda di Hugging Face Spaces]
-(Contoh: https://huggingface.co/spaces/your-username/your-space-name)
+Streamlit Cloud: [(https://personal-stylish.streamlit.app/)]
