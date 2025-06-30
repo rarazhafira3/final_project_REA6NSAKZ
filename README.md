@@ -32,16 +32,18 @@ Untuk menjalankan aplikasi ini di komputer lokal Anda, ikuti langkah-langkah ber
 Kloning Repositori:
 Buka terminal atau command prompt Anda dan kloning repositori ini:
 
-'''Bash
+```Bash
 
 git clone https://github.com/rarazhafira3/final_project_REA6NSAKZ.git
 cd final_project_REA6NSAKZ
+```
 
 Buat Virtual Environment (Direkomendasikan):
 
-'''Bash
+```Bash
 
 python -m venv venv
+```
 
 Di Windows:
 .\venv\Scripts\activate
@@ -52,9 +54,10 @@ source venv/bin/activate
 Instal Dependensi:
 Pastikan Anda memiliki file requirements.txt di root folder proyek. Kemudian instal dependensinya:
 
-'''Bash
+```Bash
 
 pip install -r requirements.txt
+```
 
 Isi requirements.txt seharusnya:
 
@@ -68,9 +71,11 @@ Pastikan Anda memiliki folder data/ di root proyek Anda, dan di dalamnya terdapa
 Jalankan Aplikasi Streamlit:
 Setelah semua dependensi terinstal, jalankan aplikasi:
 
-'''Bash
+```Bash
 
 streamlit run app.py
+```
+
 Aplikasi akan terbuka secara otomatis di browser web default Anda.
 
 ## 📸 Preview Aplikasi
