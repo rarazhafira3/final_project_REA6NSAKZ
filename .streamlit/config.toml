@@ -1,0 +1,20 @@
+[global]
+dataHttpClientTimeout = 60 
+
+[logger]
+level = "info" 
+
+[server]
+headless = true 
+enableCORS = false 
+enableXsrfProtection = false 
+maxMessageSize = 200 
+
+[browser]
+gatherUsageStats = false 
+
+[client]
+showErrorDetails = true 
+
+[runner]
+cacheFn = 'temp'
