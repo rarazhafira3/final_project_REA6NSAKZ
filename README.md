@@ -41,15 +41,18 @@ cd final_project_REA6NSAKZ
 Buat Virtual Environment (Direkomendasikan):
 
 ```Bash
-
 python -m venv venv
 ```
 
 Di Windows:
+```Bash
 .\venv\Scripts\activate
+```
 
 Di macOS/Linux:
+```Bash
 source venv/bin/activate
+```
 
 Instal Dependensi:
 Pastikan Anda memiliki file requirements.txt di root folder proyek. Kemudian instal dependensinya:
@@ -61,9 +64,10 @@ pip install -r requirements.txt
 
 Isi requirements.txt seharusnya:
 
+```Bash
 streamlit
 pandas
-
+```
 
 Siapkan Data:
 Pastikan Anda memiliki folder data/ di root proyek Anda, dan di dalamnya terdapat file body_shape_recommendations.csv. Anda dapat membuat file ini secara manual atau mengunduhnya jika sudah tersedia di repositori.
