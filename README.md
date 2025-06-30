@@ -1,9 +1,9 @@
-Personal Stylist: Temukan Gaya Terbaikmu! 👗
+# Personal Stylist: Temukan Gaya Terbaikmu! 👗
 
-📝 Deskripsi Singkat
+## 📝 Deskripsi Singkat
 Proyek ini adalah sebuah aplikasi Personal Stylist interaktif berbasis web yang dibangun menggunakan Streamlit. Tujuannya adalah untuk membantu pengguna mengidentifikasi bentuk tubuh mereka berdasarkan ukuran lingkar bahu, dada, pinggang, dan pinggul, kemudian memberikan rekomendasi gaya pakaian yang dipersonalisasi. Latar belakang masalahnya adalah kesulitan banyak orang dalam memilih pakaian yang menyanjung bentuk tubuh mereka, seringkali berujung pada rasa tidak percaya diri atau pembelian pakaian yang kurang optimal. Aplikasi ini bertujuan untuk menyederhanakan proses tersebut dengan menyediakan panduan gaya yang jelas dan mudah diakses, memberdayakan pengguna untuk berbusana dengan lebih percaya diri dan sesuai dengan siluet alami mereka.
 
-✨ Fitur-Fitur Utama
+## ✨ Fitur-Fitur Utama
 Input Pengukuran Tubuh: Pengguna dapat memasukkan ukuran lingkar bahu, dada, pinggang, dan pinggul mereka dalam sentimeter.
 
 Identifikasi Bentuk Tubuh: Algoritma cerdas (berbasis rasio pengukuran) akan mengidentifikasi bentuk tubuh pengguna (misalnya, Hourglass, Rectangle, Pear, Apple, Oval, Diamond, dan Inverted Triangle).
@@ -25,30 +25,34 @@ Penggunaan Looping: Implementasi looping untuk menampilkan rekomendasi dan mengi
 
 Penggunaan Library Eksternal: Pemanfaatan library pandas untuk memuat data rekomendasi dari file CSV, menjamin fleksibilitas dan pemisahan data dari kode.
 
-🚀 Cara Menjalankan di Lokal
+
+## 🚀 Cara Menjalankan di Lokal
 Untuk menjalankan aplikasi ini di komputer lokal Anda, ikuti langkah-langkah berikut:
 
 Kloning Repositori:
 Buka terminal atau command prompt Anda dan kloning repositori ini:
 
-Bash
+'''Bash
 
 git clone https://github.com/rarazhafira3/final_project_REA6NSAKZ.git
 cd final_project_REA6NSAKZ
 
 Buat Virtual Environment (Direkomendasikan):
 
-Bash
+'''Bash
 
 python -m venv venv
-# Di Windows:
+
+Di Windows:
 .\venv\Scripts\activate
-# Di macOS/Linux:
+
+Di macOS/Linux:
 source venv/bin/activate
+
 Instal Dependensi:
 Pastikan Anda memiliki file requirements.txt di root folder proyek. Kemudian instal dependensinya:
 
-Bash
+'''Bash
 
 pip install -r requirements.txt
 
@@ -64,12 +68,12 @@ Pastikan Anda memiliki folder data/ di root proyek Anda, dan di dalamnya terdapa
 Jalankan Aplikasi Streamlit:
 Setelah semua dependensi terinstal, jalankan aplikasi:
 
-Bash
+'''Bash
 
 streamlit run app.py
 Aplikasi akan terbuka secara otomatis di browser web default Anda.
 
-📸 Preview Aplikasi
+## 📸 Preview Aplikasi
 Berikut adalah beberapa tangkapan layar dari aplikasi yang sedang berjalan:
 
 ![alt text](image.png)
@@ -78,7 +82,7 @@ Berikut adalah beberapa tangkapan layar dari aplikasi yang sedang berjalan:
 
 ![alt text](image-2.png)
 
-🔗 Link Deploy Aplikasi
+## 🔗 Link Deploy Aplikasi
 Aplikasi ini telah dideploy ke platform cloud dan dapat diakses melalui link berikut:
 
 Streamlit Cloud: [(https://personal-stylish.streamlit.app/)]
