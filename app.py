@@ -112,7 +112,7 @@ st.title("👗 Personal Stylist: Temukan Bentuk Tubuhmu! 👗")
 st.markdown("Dapatkan rekomendasi gaya pakaian yang paling cocok untuk menonjolkan keindahan alami bentuk tubuh Anda. Masukkan pengukuran Anda di bawah ini:")
 
 # Input Pengukuran Tubuh
-st.header("1. Masukkan Pengukuran Tubuh Anda (dalam cm)")
+st.header("Masukkan Pengukuran Tubuh Anda (dalam cm)")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -168,7 +168,7 @@ if st.button("Identifikasi Bentuk Tubuh & Dapatkan Rekomendasi"):
             st.warning("🤔 Maaf, kami tidak dapat mengidentifikasi bentuk tubuh Anda dengan pengukuran yang diberikan. Mohon periksa kembali input Anda.")
 
 st.markdown("---")
-st.header("2. Pelajari Bentuk Tubuh Umum")
+st.header("Pelajari Bentuk Tubuh Umum")
 st.write("Berikut adalah gambaran singkat beberapa bentuk tubuh yang umum:")
 
 for shape_key, body_shape_obj in RECOMMENDATIONS_DATA.items():
